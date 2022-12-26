@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .red{
+font-weight: 900;
+font-family: poppins;
+        }
+        .hide{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<button id="myBtn">RUN</button>
+<button id="myBt">UNDO</button>
+<div id="demo">This is just a random text</div>
+
+<script>
+document.getElementById("myBtn").addEventListener("click", runCode);
+// document.getElementById("myBt").addEventListener("click", undoCode);
+
+document.getElementById("myBt").addEventListener("click", ()=>{
+    document.getElementById('demo').classList.remove('red');
+});
+
+function runCode() {
+document.getElementById('demo').classList.add('red',"hide")
+}
+// function undoCode() {
+// document.getElementById('demo').classList.remove('red');
+// }
+
+</script>
+<!-- 
+<script>
+    const navMenu = document.getElementById('nav__menu'),
+    navToggle = document.getElementById('nav__toggle'),
+    navClose = document.getElementById('nav__close')
+
+
+if (navToggle) {
+    navToggle.addEventListener('click', () => {
+        navMenu.classList.add('show-menu')
+        // console.log('clicked')
+    })
+}
+
+
+if (navClose) {
+    navClose.addEventListener('click', () => {
+        navMenu.classList.remove('show-menu')
+        // console.log('clicked')
+    })
+}
+
+</script> -->
+</body>
+</html>

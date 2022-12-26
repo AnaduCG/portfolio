@@ -1,0 +1,117 @@
+*{
+    /* position: sticky; */
+}
+.testimonial-container .ul-b{
+margin-bottom: 100px;
+}
+.testimonial-slide {
+    /* position: relative; */
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+/* body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper {
+    width: 100%;
+    height: 100%;
+} */
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    /* padding-top: 10px; */
+    background: none;
+    width: 200px;
+    padding: 20px 100px;
+    /* background: red; */
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* position: relative; */
+}
+.swiper-slide .testimonial{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: black;
+    color: silver;
+    padding: 30px;
+margin-bottom: 10px;
+}
+
+.swiper-slide .testimonial .img{
+height: 50px;
+width: 50px;
+margin-top: -50px;
+}
+.swiper-slide .testimonial .img img{
+border-radius: 50%;
+}
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+        /* padding-top: 10px; */
+        background: none;
+        width: 100%;
+        padding: 0px;
+        /* background: red; */
+    }
+}
